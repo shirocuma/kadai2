@@ -1,24 +1,13 @@
-# README
+# Rubyを用いた本の感想投稿サイト「Book Talk」
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##概要
+気に入った本のタイトルと感想を投稿するとデータが保存され、後で見返すことができるアプリケーションです。
 
-Things you may want to cover:
+##利用方法
+ユーザー側：トップページのstartを押すと新規投稿ができるので本のタイトルと感想を投稿→データが保存される
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##工夫点
+・投稿する場所と保存したデータは同じページに表示されいつでも閲覧可能。
+・保存したデータを表示・編集・削除できる。
+・編集画面では前のデータが保存された状態で表示されるため編集しやすい。
+・投稿部分を空白で投稿した場合はエラー表示が出るようになり、投稿できた場合は成功表示がされる。
